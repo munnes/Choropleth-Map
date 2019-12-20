@@ -1,0 +1,26 @@
+#title{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#description{
+    font-size: large;
+    font-weight: bolder;   
+}
+div{
+    text-align: center; 
+}
+
+body{
+    font-family: sans-serif;
+    text-align: center;
+}
+.county:hover {
+ stroke:palevioletred;
+ stroke-width: 2;
+  }
+.txtK{
+    font-size: 11px;
+}
+#tooltip div{
+    background-color: purple;
+}
