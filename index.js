@@ -20,6 +20,7 @@ Promise.all([
 ])
  .then(([data,dataEdu])=>
      {
+     //data are in topojson format to convert =>geojson
    const counties= topojson.feature(data, data.objects.counties)   
  
   function mergeArrayObjects(arr1,arr2){
